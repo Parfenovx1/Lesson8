@@ -8,7 +8,7 @@ function date(){
     console.log(dateInput);
     var now = new Date();
     var differenceInTime = now.getTime() - dateInput.getTime();
-    var hours = Math.floor(differenceInTime / (3600000)); // 3600000 это 1000(секунда)*60(минута)*60(час)
+    var hours = Math.floor(differenceInTime / 3600000); // 3600000 это 1000(секунда)*60(минута)*60(час)
     console.log(hours + " hours have passed since the entered date")
     if(hours < 0){
         console.clear();
