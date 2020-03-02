@@ -1,3 +1,5 @@
+// 1 Задание
+
 function date(){
     var year = Number(prompt("Enter year:"))
     var month = Number(prompt("Enter month from 0 to 11:"))
@@ -21,11 +23,13 @@ function date(){
 }
 date();
 
-// function time(){
-//     var now = new Date();
-//     var hours = now.getHours();
-//     var minutes = now.getMinutes();
-//     var seconds = now.getSeconds();
-//     console.log(hours + ":" + minutes + ":" + seconds);
-// }
-// setInterval(time, 1000);
+// 2 Задание
+
+function time(){
+    var now = new Date();
+    var hours = now.getHours();
+    var minutes = now.getMinutes();
+    var seconds = now.getSeconds();
+    console.log(hours + ":" + minutes + ":" + seconds);
+}
+setInterval(time, 1000);
